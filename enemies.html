@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Enemies</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/enemies.css">
+	<link rel="stylesheet" href="jquery/jquery-ui.min.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery/jquery-ui.min.js"></script>
+	
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img src="images/tricorn.jpg" alt="Tricorn" id="logo"></a>
+		<span id="logotext">Destiny</span>
+	</header>
+	<nav>
+		<a href="classes.html" class="navbaritem">Classes</a>
+		<a href="subclasses.html" class="navbaritem">Subclasses</a>
+		<a href="enemies.html" class="navbaritem" id="navbar_enemy">Enemies</a>
+	</nav>
+
+	<main>
+		<p>Guardians fight several different types of enemies in order to keep the citizens of the Last City safe.</p>
+
+		<!-- <button id="testjs">Test JS</button> -->
+
+		<div id="tabs">
+			<ul>
+				<li><a href="#ftab">Fallen</a></li>
+				<li><a href="#htab">Hive</a></li>
+				<li><a href="#ctab">Cabal</a></li>
+				<li><a href="#vtab">Vex</a></li>
+			</ul>
+			<div id="ftab">
+				<p>The Fallen are essentially space pirates that want the Traveler's light all to themselves since it left them
+					some number of years ago. They
+					came to Earth to try to wipe us all out in hopes they could have the Traveler to themselves again. </p>
+			</div>
+			<div id="htab">
+				<p>The Hive are a nasty race. They deal most directly with the darkness that tries to creep into our world. </p>
+			</div>
+			<div id="ctab">
+				<p>The Cabal are a giant militarized alien race that kill everything in their path. They too seek to colonize and
+					control every planet in the
+					system. </p>
+			</div>
+			<div id="vtab">
+				<p>The Vex are
+					timeline-altering semi-organic robots that travel between timelines and seek universal domination. </p>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$("#tabs").tabs();
+		</script>
+
+		<video id="video" src="media/pvemontage.mp4" autoplay poster="posterimage.jpg" controls></video>
+
+
+	</main>
+	<footer>
+		&copy; Corbin McGuire - CS2800 Project 3 - Fall 2018
+	</footer>
+</body>
+
+</html>

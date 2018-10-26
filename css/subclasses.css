@@ -1,0 +1,48 @@
+#navbar_subclass {
+    color: #cc00ff;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbaritem {
+        display: block;
+    }
+}
+
+main p {
+    background-color: white;
+    border: 2px solid black;
+    padding: 1em 2em;
+}
+
+#rollover {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rollover:hover {
+    content: url("../images/subclasses2.jpg");
+}
+
+.sub-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: 2s;
+}
+
+#hunter:hover {
+    filter: blur(5px);
+}
+
+#titan:hover {
+    transform: rotate(-45deg);
+}
+
+#warlock:hover {
+    filter: contrast(175%);
+}

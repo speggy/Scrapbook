@@ -1,0 +1,33 @@
+#navbar_class {
+    color: lightblue;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbaritem {
+        display: block;
+    }
+}
+
+.classimages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 2s;
+    margin-bottom: 2%;
+}
+
+#d2classes:hover {
+    transform: scale(1.5);
+}
+
+main p {
+    background-color: white;
+    border: 2px solid black;
+    padding: 1em 2em;
+}
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
